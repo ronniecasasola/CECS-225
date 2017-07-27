@@ -1,0 +1,9 @@
+[Inputs]
+=argA[31:0]=
+[Outputs]
+=argB[31:0]=
+=AandB[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel AND_32
+

@@ -1,0 +1,4 @@
+verilog work "../../../Users/Ronnie/Desktop/lab2/HalfAdder.v"
+verilog work "../../../Users/Ronnie/Desktop/lab2/FullAdder.v"
+verilog work "../../../Users/Ronnie/Desktop/lab2/RCA8.v"
+verilog work "Adder_32.v"

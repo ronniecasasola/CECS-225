@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Xilinx/Projects/Lab4/Subtracter_32.v -lang verilog -prj Lab4 -o Subtracter_32.spl -module Subtracter_32 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 Subtracter_32.spl C:/Xilinx/Projects/Lab4/Subtracter_32.sym 

@@ -1,0 +1,9 @@
+[Inputs]
+=argA[31:0]=
+=argB[31:0]=
+[Outputs]
+=AorB[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel OR_32
+

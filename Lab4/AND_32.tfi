@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+AND_32 instance_name (
+    .argA(argA), 
+    .argB(argB), 
+    .AandB(AandB)
+    );
+
+

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Xilinx/Projects/Lab4/Mux8to1_32bit.v -lang verilog -prj Lab4 -o Mux8to1_32bit.spl -module Mux8to1_32bit -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 Mux8to1_32bit.spl C:/Xilinx/Projects/Lab4/Mux8to1_32bit.sym 

@@ -1,0 +1,9 @@
+[Inputs]
+=augend[31:0]=
+=addend[31:0]=
+[Outputs]
+=sum[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel Adder_32
+

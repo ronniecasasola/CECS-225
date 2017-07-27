@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "C:/Xilinx/Projects/Lab4/FullAdder_Tester.xst" -ofn "C:/Xilinx/Projects/Lab4/FullAdder_Tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 FullAdder_Tester.ngc FullAdder_Tester.ngd  
+xst -intstyle ise -ifn "C:/Xilinx/Projects/Lab4/FullAdder_Tester.xst" -ofn "C:/Xilinx/Projects/Lab4/FullAdder_Tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 FullAdder_Tester.ngc FullAdder_Tester.ngd  

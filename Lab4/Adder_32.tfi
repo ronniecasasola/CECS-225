@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+Adder_32 instance_name (
+    .augend(augend), 
+    .addend(addend), 
+    .sum(sum)
+    );
+
+

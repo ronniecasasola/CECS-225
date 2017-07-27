@@ -1,0 +1,9 @@
+[Inputs]
+=subtrahend[31:0]=
+=minuend[31:0]=
+[Outputs]
+=difference[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel Subtracter_32
+

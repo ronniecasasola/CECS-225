@@ -1,0 +1,29 @@
+Command line:
+   Mux8to1_32bit_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  4656
+
+Wed Oct 05 00:32:25 2016
+
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 842.068 Meg
+
+ Total Signals          : 22
+ Total Nets             : 304
+ Total Signal Drivers   : 6
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 8
+ Total Traceable Variables  : 19
+ Total Scalar Nets and Variables : 416
+Total Line Count : 26
+
+ Total Simulation Time: 0.015625 sec
+
+ Current Memory Usage: 842.068 Meg
+
+Wed Oct 05 00:32:33 2016
+

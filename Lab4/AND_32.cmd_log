@@ -1,0 +1,3 @@
+vhdtdtfi -lang verilog -prj Lab4 -o C:/Xilinx/Projects/Lab4/AND_32.tfi -lib work C:/Xilinx/Projects/Lab4//AND_32.v -module AND_32 -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work C:/Xilinx/Projects/Lab4/AND_32.v -lang verilog -prj Lab4 -o AND_32.spl -module AND_32 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 AND_32.spl C:/Xilinx/Projects/Lab4/AND_32.sym 

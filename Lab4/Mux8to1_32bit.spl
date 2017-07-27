@@ -1,0 +1,16 @@
+[Inputs]
+=Sel[2:0]=
+=In0[31:0]=
+=In1[31:0]=
+=In2[31:0]=
+=In3[31:0]=
+=In4[31:0]=
+=In5[31:0]=
+=In6[31:0]=
+=In7[31:0]=
+[Outputs]
+=Out[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel Mux8to1_32bit
+
