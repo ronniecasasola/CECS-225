@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Lab6.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ALU_Tester_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Control_Unit_Tester_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="FullAdder_Tester_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="RCA8_Tester_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="datapath_tester_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="datapath_tester_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="datapath_tester_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="datapath_tester_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="flopr.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="flopr.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="flopr.xst"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="regfile_tester_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1479403063" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1479403063">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1479403063" xil_pn:in_ck="-6171080406674330249" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1479403063">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../Lab1/FullAdder_Tester.v"/>
+      <outfile xil_pn:name="../Lab1/HalfAdder_Tester.v"/>
+      <outfile xil_pn:name="../Lab2/FullAdder.v"/>
+      <outfile xil_pn:name="../Lab2/HalfAdder.v"/>
+      <outfile xil_pn:name="../Lab2/RCA8.v"/>
+      <outfile xil_pn:name="../Lab2/RCA8_Tester.v"/>
+      <outfile xil_pn:name="../Lab3/ALU_Decoder.v"/>
+      <outfile xil_pn:name="../Lab3/ALU_Decoder_Tester.v"/>
+      <outfile xil_pn:name="../Lab3/Control_Unit.v"/>
+      <outfile xil_pn:name="../Lab3/Control_Unit_Tester.v"/>
+      <outfile xil_pn:name="../Lab3/Main_Decoder.v"/>
+      <outfile xil_pn:name="../Lab3/Main_Decoder_Tester.v"/>
+      <outfile xil_pn:name="../Lab4/ALU.v"/>
+      <outfile xil_pn:name="../Lab4/ALU_Tester.v"/>
+      <outfile xil_pn:name="../Lab4/AND_32.v"/>
+      <outfile xil_pn:name="../Lab4/Adder_32.v"/>
+      <outfile xil_pn:name="../Lab4/Mux8to1_32bit.v"/>
+      <outfile xil_pn:name="../Lab4/OR_32.v"/>
+      <outfile xil_pn:name="../Lab4/SetLessThan_32.v"/>
+      <outfile xil_pn:name="../Lab4/Subtracter_32.v"/>
+      <outfile xil_pn:name="../Lab5/regfile.v"/>
+      <outfile xil_pn:name="../Lab5/regfile_tester.v"/>
+      <outfile xil_pn:name="datapath.v"/>
+      <outfile xil_pn:name="datapath_tester.v"/>
+      <outfile xil_pn:name="flopr.v"/>
+      <outfile xil_pn:name="mux2_32.v"/>
+      <outfile xil_pn:name="mux2_5.v"/>
+      <outfile xil_pn:name="s12.v"/>
+      <outfile xil_pn:name="signext.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1479403063" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-2416148356749987340" xil_pn:start_ts="1479403063">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1479403063" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="2025816353229507090" xil_pn:start_ts="1479403063">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1479403063" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-6871671226830621532" xil_pn:start_ts="1479403063">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1479403063" xil_pn:in_ck="-6171080406674330249" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1479403063">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../Lab1/FullAdder_Tester.v"/>
+      <outfile xil_pn:name="../Lab1/HalfAdder_Tester.v"/>
+      <outfile xil_pn:name="../Lab2/FullAdder.v"/>
+      <outfile xil_pn:name="../Lab2/HalfAdder.v"/>
+      <outfile xil_pn:name="../Lab2/RCA8.v"/>
+      <outfile xil_pn:name="../Lab2/RCA8_Tester.v"/>
+      <outfile xil_pn:name="../Lab3/ALU_Decoder.v"/>
+      <outfile xil_pn:name="../Lab3/ALU_Decoder_Tester.v"/>
+      <outfile xil_pn:name="../Lab3/Control_Unit.v"/>
+      <outfile xil_pn:name="../Lab3/Control_Unit_Tester.v"/>
+      <outfile xil_pn:name="../Lab3/Main_Decoder.v"/>
+      <outfile xil_pn:name="../Lab3/Main_Decoder_Tester.v"/>
+      <outfile xil_pn:name="../Lab4/ALU.v"/>
+      <outfile xil_pn:name="../Lab4/ALU_Tester.v"/>
+      <outfile xil_pn:name="../Lab4/AND_32.v"/>
+      <outfile xil_pn:name="../Lab4/Adder_32.v"/>
+      <outfile xil_pn:name="../Lab4/Mux8to1_32bit.v"/>
+      <outfile xil_pn:name="../Lab4/OR_32.v"/>
+      <outfile xil_pn:name="../Lab4/SetLessThan_32.v"/>
+      <outfile xil_pn:name="../Lab4/Subtracter_32.v"/>
+      <outfile xil_pn:name="../Lab5/regfile.v"/>
+      <outfile xil_pn:name="../Lab5/regfile_tester.v"/>
+      <outfile xil_pn:name="datapath.v"/>
+      <outfile xil_pn:name="datapath_tester.v"/>
+      <outfile xil_pn:name="flopr.v"/>
+      <outfile xil_pn:name="mux2_32.v"/>
+      <outfile xil_pn:name="mux2_5.v"/>
+      <outfile xil_pn:name="s12.v"/>
+      <outfile xil_pn:name="signext.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1479403067" xil_pn:in_ck="-6171080406674330249" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="5315635815646859383" xil_pn:start_ts="1479403063">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="datapath_tester_beh.prj"/>
+      <outfile xil_pn:name="datapath_tester_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1479403067" xil_pn:in_ck="-8658937018704799511" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-4327757080608611910" xil_pn:start_ts="1479403067">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="datapath_tester_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+  </transforms>
+
+</generated_project>

@@ -1,0 +1,97 @@
+ISim log file
+Running: C:\Xilinx\Projects\Lab6\datapath_tester_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Xilinx/Projects/Lab6/datapath_tester_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+ a license, please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses".)
+INFO:Security:68a - user is Ronnie, on host RONNIE-PC.
+ERROR:Security:14 - No feature was available for 'ISIM'.
+
+No such feature exists.
+Feature:       ISIM
+License path:  C:/.Xilinx\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\XilinxFree.lic;C:\Xilinx\14.7\ISE_DS\EDK/data/core_licenses\Xilinx.lic;
+FLEXnet Licensing error:-5,357
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".
+----------------------------------------------------------------------
+WARNING: A full ISim License cannot be checked out due to the issues listed above. Please use Xilinx License Configuration Manager to fix these issues in order to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Begin MIPS datapath Test
+
+Show initial register contents
+Scan registers for valid data
+The following registers have data
+register          0 = 32'h00000000'
+register         11 = 32'h00000032'
+register         12 = 32'h00000064'
+register         13 = 32'h00000096'
+register         14 = 32'h000000c8'
+register         15 = 32'h000000fa'
+register         31 = 32'hffffffff'
+
+Test case 0
+check result of add $16, $14, $12
+Expected Result: $16 = 0000012c
+Actual Result: $16 = 0000012c
+Test passed!
+
+Test case 1
+check result of sub $17, $15, $11
+Expected Result: $17 = 000000c8
+Actual Result: $17 = 000000c8
+Test passed!
+
+Test case 2
+check result of and $18, $31, $0
+Expected Result: $18 = 00000000
+Actual Result: $18 = 00000000
+Test passed!
+
+Test case 3
+check result of or $19, $17, $31
+Expected Result: $19 = ffffffff
+Actual Result: $19 = ffffffff
+Test passed!
+
+Test case 4
+check result of slt $20, $17, $16
+Expected Result: $20 = 00000001
+Actual Result: $20 = 00000001
+Test passed!
+
+Test case 5
+check result of slt $21, $16, $17
+Expected Result: $21 = 00000000
+Actual Result: $21 = 00000000
+Test passed!
+
+
+Show final register contents
+Scan registers for valid data
+The following registers have data
+register          0 = 32'h00000000'
+register         11 = 32'h00000032'
+register         12 = 32'h00000064'
+register         13 = 32'h00000096'
+register         14 = 32'h000000c8'
+register         15 = 32'h000000fa'
+register         16 = 32'h0000012c'
+register         17 = 32'h000000c8'
+register         18 = 32'h00000000'
+register         19 = 32'hffffffff'
+register         20 = 32'h00000001'
+register         21 = 32'h00000000'
+register         31 = 32'hffffffff'
+
+End MIPS datapath Test
+Stopped at time : 81 ns : File "C:/Xilinx/Projects/Lab6/datapath_tester.v" Line 211
