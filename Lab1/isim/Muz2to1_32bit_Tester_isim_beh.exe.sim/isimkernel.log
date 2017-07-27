@@ -1,0 +1,29 @@
+Command line:
+   Muz2to1_32bit_Tester_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  59300
+
+Thu Feb 02 10:22:43 2017
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 845.771 Meg
+
+ Total Signals          : 17
+ Total Nets             : 110
+ Total Signal Drivers   : 9
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 12
+ Total Traceable Variables  : 22
+ Total Scalar Nets and Variables : 287
+Total Line Count : 42
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 845.771 Meg
+
+Thu Feb 02 11:02:20 2017
+

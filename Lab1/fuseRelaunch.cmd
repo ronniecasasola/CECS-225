@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Xilinx/Projects/Lab1/Muz2to1_32bit_Tester_isim_beh.exe" -prj "C:/Xilinx/Projects/Lab1/Muz2to1_32bit_Tester_beh.prj" "work.Muz2to1_32bit_Tester" "work.glbl" 
