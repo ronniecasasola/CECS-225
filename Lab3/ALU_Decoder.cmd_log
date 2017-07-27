@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Xilinx/Projects/Lab3/ALU_Decoder.xst" -ofn "C:/Xilinx/Projects/Lab3/ALU_Decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 ALU_Decoder.ngc ALU_Decoder.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ALU_Decoder_map.ncd ALU_Decoder.ngd ALU_Decoder.pcf 
+xst -intstyle ise -ifn "C:/Xilinx/Projects/Lab3/ALU_Decoder.xst" -ofn "C:/Xilinx/Projects/Lab3/ALU_Decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 ALU_Decoder.ngc ALU_Decoder.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ALU_Decoder_map.ncd ALU_Decoder.ngd ALU_Decoder.pcf 
